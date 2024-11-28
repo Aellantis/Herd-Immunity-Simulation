@@ -1,0 +1,27 @@
+ 
+        ---------------
+            Population Size: 10000
+            Virus Name: Flu
+            Mortality Rate: 0.05
+            Vaccination Percentage: 0.7
+            Initially Infected: 500
+            Initially Vaccinated: 7000
+        ---------------
+         
+        ---------------
+            Wave: 1
+            Number of Interactions: 200
+            Number of New Infections: 50
+        ---------------
+         
+        ---------------
+            Wave: 1
+            Population Size: 10000
+            Living People: 2
+            Vaccinated People: 1
+            Initially Infected: 500
+            Initially Vaccinated: 7000
+            Total Fatalities: 10
+            Total Vaccinations: 2000
+        ---------------
+        
