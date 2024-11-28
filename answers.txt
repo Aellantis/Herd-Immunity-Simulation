@@ -1,0 +1,16 @@
+What were the inputs you gave the simulation? (Population size, percent vaccinated, virus name, mortality rate, reproductive rate)
+- Population Size: 10,000
+- Percent Vaccinated: 70% (7,000 initially vaccinated people)
+- Virus Name: "Flu"
+- Mortality Rate: 5% (0.05)
+- Reproductive Rate: 2% (0.02)
+- Initially Infected: 785 people
+
+What percentage of the population became infected at some point before the virus burned out?
+- 8.49% of the population became infected at some point.
+
+What percentage of the population died from the virus?
+- 0.64% of the population died from the virus.
+
+Out of all interactions sick individuals had during the entire simulation, how many times, in total, did a vaccination save someone from potentially becoming infected?
+- Since I made 70% of the population vaccinated, the amount of individuals that were saved by a vaccine (so that they don;'t become infected) is around 286. This number was calculated with the assumption that he same proportion of the 409 new infections could have been prevented by vaccination, assuming the vaccination rate is a reasonable predictor of exposure to the virus. 409×0.7=286.3
