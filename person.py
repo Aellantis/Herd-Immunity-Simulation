@@ -24,9 +24,8 @@ class Person(object):
 
 if __name__ == "__main__":
     # Testing the Person class
-    
     # Create a Virus object
-    virus = Virus("Dysentery", 0.7, 0.2)  # Infection rate: 70%, Mortality rate: 20%
+    virus = Virus("Dysentery", 0.7, 0.2)  
 
     # Create a vaccinated person
     vaccinated_person = Person(1, True)
@@ -56,6 +55,20 @@ if __name__ == "__main__":
     print(f"People who survived: {did_survive}")
     print(f"People who did not survive: {did_not_survive}")
     print(f"Expected Mortality rate: {int(virus.mortality_rate * 100)}%")
+
+    # Test 2
+    person.did_survive_infection()
+    assert person.is_alive == True 
+    print("Person survival test passed!")
+
+    # Test 3:
+    high_mortality_virus = Virus("FatalVirus", 0.5, 0.8)
+    person = Person(2, False, high_mortality_virus)
+    person.did_survive_infection()
+    assert person.is_alive == False
+    print("Person mortality test (high mortality rate) passed!")
+
+
 
     # Stretch challenge: Simulate infection spread among uninfected people
     uninfected_people = [Person(i, False) for i in range(1, 101)]
